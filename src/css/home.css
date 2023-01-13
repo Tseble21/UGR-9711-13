@@ -1,0 +1,166 @@
+
+.picture{
+    display: flex;
+    width: 42%;
+    float: right;
+    margin-right:5%;
+    margin-top: 100px;
+}
+.Introduction {
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.Introduction__content {
+    margin-top: 235px;
+    
+}
+.Introduction__content--holder {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.Intorduction__content--holder--text {
+    padding: 10px;
+    font-size: 3em;
+    text-transform: capitalize;
+    font-family: monospace;
+}
+.Intorduction__content--holder--heading {
+    padding: 5px;
+    font-size: 4em;
+    font-family: serif;
+}
+    .Introduction__content--describe{
+    margin-top: 30px;
+    padding: 15px;
+    font-size: 20px;
+    line-height: 1.5;
+    width: 75%;
+    margin: auto;
+    text-indent: 50px;
+    letter-spacing: 1.5px;
+    text-transform: full-width;
+    color: white;
+        
+    } 
+
+.Introduction__about--button:visited{
+    background: #2ecc71;
+
+}
+.Introduction__about--button{
+        position: relative;
+        background: #2ecc71;
+        display: inline-block;
+        color: white;
+        margin-top: 15px;
+        left: 30%;
+        padding: 15px 35px 15px 35px;
+        font-size: 18px;
+        text-transform: uppercase;
+        text-decoration: none;
+        letter-spacing: 2px;
+        font-weight: 500;
+        border-radius:11px;
+    }
+    
+
+    .footer{
+       
+        padding-left: 1px;
+    }
+
+    @media  (max-width:511px){
+        .header{
+            width: 15%;
+        }
+         .picture {
+            width: 60%;
+            margin: 30px auto;
+            float: none;
+         }
+         .Introduction__content{
+             margin-top: -5px;
+         }
+         .Introduction__content--holder{
+             display: flex;
+             flex-direction: column;
+             font-size: 13px;
+             margin-bottom: 15px;
+         }
+        .Introduction__content--describe{
+            font-size: 18px;
+            background-color: aqua;
+            border-radius: 15px;
+            width: 90%;
+            background-color: hsla(230, 69%, 5%, 0.227);
+        }
+        .Introduction__about--button{
+            margin-top: 25px;
+        }
+         
+    } 
+    @media(max-width:390px){
+        .Introduction__content--holder{
+            font-size: 10px;
+        }
+    }
+   @media(min-width:511px) and (max-width:675px){
+       .header{
+           width: 150%;
+       }
+       .picture{
+           width: 40%;
+           margin-top: 100px;
+       }
+       .Introduction__content{
+           margin-top: 70px;
+       }
+       .Introduction__content--holder{
+           flex-direction: column;
+           font-size: 10px;
+       }
+       .Introduction__content--describe{
+        font-size: 15px;
+        
+        border-radius: 15px;
+        width: 90%;
+        background-color: hsla(231, 70%, 5%, 0.384);
+        box-shadow: -10px -15px 5px rgba(61, 91, 116, 0.336);
+    }
+   }
+    
+    @media (min-width:676px) and (max-width:990px){
+        .picture{
+            margin-top: 220px;
+            width: 45%;
+        }
+        .Introduction__content--holder{
+            display: flex;
+            flex-direction: column;
+            font-size: 12px;
+        }
+        .Introduction__about--button{
+            margin-top: 10px;
+            margin-left: 20px;
+        }
+        .emails {
+            margin-left: 90px;
+        }
+        .Introduction__content--describe{
+           
+            
+            border-radius: 15px;
+            width: 90%;
+            background-color: hsla(231, 70%, 5%, 0.384);
+        }
+        
+       
+       
+        
+    }
+    
+  
