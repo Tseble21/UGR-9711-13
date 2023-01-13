@@ -1,0 +1,141 @@
+
+.main{
+    display: flex;
+    
+    padding: 25px;
+    margin-top: 50px;   
+}
+.tables-description{
+    color: white;
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.tables{
+        
+    
+        
+        margin: auto;
+        padding: 15px;
+       
+        
+        border-radius: 25px;
+        font-family: sans-serif;
+        
+}
+
+.tables-title{
+text-align: center;
+color: white;
+font-size:4vh;
+padding: 10px;
+}
+.table-container,.table-row__head--title,.table-row__data{
+    margin: auto;
+    border: 0.125em solid rgba(245, 245, 245, 0.411);
+    padding: 18px;
+    border-collapse: collapse;
+}
+.table-row__head--title{
+        color: white;
+        font-family: monospace;
+        padding: 19px;
+        font-size: 24px;
+        text-transform: capitalize;
+}
+.table-row__data{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: white;
+    font-size: 18px;}
+.table-row:hover{
+    background-color: #3E5972;
+    cursor: pointer;
+}
+
+@media(max-width:330px){
+    .header{
+        width: 150%;
+    }
+}
+
+@media(max-width:600px){
+    .header{
+    width: 131%;
+    }
+
+}
+@media(max-width:908px){
+    .main{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr ;
+        grid-template-rows: 1fr 1fr 1fr 1fr ;
+    }
+    .tables{
+        grid-column: span 2;
+        margin-top: 5px;
+    }
+    .certificates{
+        grid-column: span 2;
+        margin-left: 10px;
+        width: 120%;
+    }
+    .skills-bar{
+        grid-column: span 1;
+        width: 150%;
+    }
+}
+@media(min-width:621px) and (max-width:720px){
+    .main{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-left: 15px;
+    }
+}
+@media(min-width:320px) and (max-width:620px){
+    
+    .main{
+        margin-left: 5px;
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 110%;
+    
+    }
+    .tables{
+        width: 110%;
+        
+    }
+    .table-container{
+        width: 100%;
+    }
+    
+    h2.table{
+        font-size: 1.5em;
+    }
+    .table-row__data{
+        font-size: 19px;
+    }
+    .table-row__head--title{
+        font-size: 15px;
+    }
+    .tables-title{
+        font-size: 20px;
+    }
+    .articles--text{
+        margin-left: 1px;
+        width: 100%;
+    }
+    .articles{
+        margin-left:15px;
+        width: 110%;
+    }
+    .certificates{
+        width: 120%;
+    }
+    .skills-bar{
+        width: 110%;
+    }
+}
+
+
+
