@@ -1,0 +1,118 @@
+
+     .Gallery{
+        
+        display: inline-flexbox;
+        text-align: center;
+      width: 30%;
+        margin: auto;
+        color: white;
+        border: 2px solid hsla(0, 0%, 3%, 0.384);
+        font-size: 3rem;
+        margin-top: 50px;
+        background-color: hsla(133, 69%, 5%, 0.384);
+        border-radius: 15px;
+        padding: 15px;
+        box-shadow: transparent;
+    }
+    .next {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-size: 25px;
+       
+    }
+    .next-title {
+        border: 2px solid rgb(54, 53, 53);
+        padding: 15px 25px 15px 35px;
+        background-color: rgba(20, 24, 23, 0.227);
+        border-radius: 155px;
+        margin: 15px;
+        font-size: 1.9em;
+    }
+    .next-link{
+        text-decoration: none;
+    }
+    .next-link:visited{
+        color: #0fe5e5;
+    }
+    .next-link:hover{
+        color: rgb(255, 72, 0);
+    }
+
+.photo{
+    margin-top: 10px;
+    padding: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 50px;
+}
+.photo__figuree{
+    grid-column: span 1;
+}
+
+.pic{
+    border: hsla(231, 70%, 5%, 0.384) solid 2px;
+    width: 100%;
+    border-radius: 15px;
+}
+.photo__figuree--caption{
+    padding-left: 10px;
+    background-color: hsla(231, 70%, 5%, 0.384);
+    padding: 20px;
+    border-radius: 15px;
+    color: white;
+    font-family: monospace;
+    font-size: 18px;
+    word-spacing: 2px;
+}
+ .pic:hover{
+    
+    width: 110%;
+    cursor: pointer;
+    transition: all 0.5s ease 0s;
+    box-shadow: 5px 2px 3px rgba(255, 255, 255, 0.459);
+}
+@media (min-width:641px) and (max-width:1015px){
+    .Gallery{
+        width: 60%;
+        font-size: 34px;
+    }
+    .photo{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .photo__figuree--caption{
+        font-size: 15px;
+    }
+    .next{
+        font-size: 20px;
+    }
+}
+@media  (max-width:645px){
+    .Gallery{
+        width: 60%;
+        font-size: 1.5rem;
+    }
+    .photo{
+        grid-template-columns: 1fr;
+        grid-gap: 45px;
+        margin-top: 0;
+    }
+    .photo__figuree--caption{
+        font-size: 16px;
+        margin-top: 3px;
+    }
+    .next__para{
+        font-size: 20px;
+        padding: 5px;
+        text-align: center;
+    }
+    .next-title {
+      
+        margin: 5px;
+        font-size: 1.1em;
+    }
+}
