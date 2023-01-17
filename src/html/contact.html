@@ -38,11 +38,34 @@
                 </div>
                 <div class="right">
                     <h2>Contact Us</h2>
-                    <input type="text" class="field" placeholder="Your Name">
+                    <form autocomplete="on" id="form">
+                    
+                        <div class="input-control">
+                            <input id="userField" name="userField " class="field" type="text" placeholder="Enter username">
+                            <small>error message</small>
+                        </div>
+                    
+                        <div class="input-control">
+                            <input name="emailField" id="emailField" class="field" type="email" placeholder="Enter email adress">
+                            <small>error message</small>
+                    
+                        </div>
+                    
+                        <div class="input-control">
+                            <input name="phonefield" id="phonefieled" class="field" type="text" placeholder="Enter phone number">
+                            <small>error message</small>
+                        </div>
+                    
+                        <textarea placeholder="Message" class="field"></textarea>
+
+                        <button>Send</button>
+                    </form>
+                    <form autocomplete="on" id="form"></form>
+                        <!-- <input type="text" class="field" id="userField" name="userField " placeholder="enter username">
                     <input type="text" class="field" placeholder="Your Email">
                     <input type="text" class="field" placeholder="Phone">
                     <textarea placeholder="Message" class="field"></textarea>
-                    <button class="btn">Send</button>
+                    <button class="btn">Send</button> -->
                 </div>
             </div>
         </div>
