@@ -7,114 +7,145 @@
     <title>Herbs</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><!--To include social media icon-->
     <link rel="shortcut icon" href="../images/icons8-my-orange.svg" type="image/x-icon" alt="an icon for Herbs">
-    <link rel="stylesheet" href="../css/combine.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    
+    
+        <link rel="stylesheet" href="../css/combine.css">
     <link rel="stylesheet" href="../css/Herbs.css">
 </head>
 <body class="body">
-    <header class="header">
-        <div class="logo">
-            <p> Habesha Medhanit</p>
-        </div>
-        <img src="../images/icons8-menu (7).svg" class="humburger" id="humburger" alt="HumbergerIcon for js" >
-        <nav class="nav" id="nav">
-            <ul class="nav_bar">
-                <li class="nav__bar--list"><a class="link" href="../index.html">Home</a></li>
-                <li class="nav__bar--list"><a class="link"  href="about.html" >About</a></li>
-                <li class="nav__bar--list"><a class="link" href="Diseases.html" >Diseases</a></li>
-                <li class="nav__bar--list"><a class="link" href="Herbs.html">Herbs</a></li>
-                <li class="nav__bar--list"><a class="link" href="Treatment.html">Treatment</a></li>
-                <li class="nav__bar--list"><a class="link" href="culture.html">Culture</a></li>
-
-                <li class="nav__bar--list"><a class="link"  href="contact.html">Contact</a></li>
-                
-            </ul>  
+    <header>
+        <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
+            <div class="container">
+                <a class="navbar-brand mx-3" href="#"><span class="habesh">ሐበሻ </span> መድሃኒት</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navmenu">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link text-white px-3" href="../index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link text-white px-3" href="about.html">About</a></li>
+                        <li class="nav-item"><a class="nav-link text-white px-3" href="Diseases.html">Diseases</a></li>
+                        <li class="nav-item"><a class="nav-link text-white px-3" href="Herbs.html">Herbs</a></li>
+                        <li class="nav-item"><a class="nav-link text-white px-3" href="Treatment.html">Treatment</a>
+                        </li>
+                        <li class="nav-item"><a class="nav-link text-white px-3" href="culture.html">Culture</a></li>
+                        <li class="nav-item"><a class="nav-link text-white px-3" href="contact.html">Contact</a></li>
+                    </ul>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
-    <main class="main" >
+    <main class="container-fluid h-100 p-4 my-4  " >
         
-        <section class="service">
-            <h2 class="service-title">Herbs</h2>
-            <p class="service-description">Traditional herbs has great impact on disease that comes throught out a period and those
+        <section class="container-fluid p-4 d-flex flex-column align-items-center">
+            <h1 class="display-3 text-white fw-bolder">Herbs</h1>
+            <p class="lead text-white w-75 fw-normal">Traditional herbs has great impact on disease that comes throught out a period and those
                 traditional herbs have different behaviors and different characeterstics some of them are available on hot period and some of those
             are exist in colder region and others... </p>
         </section> 
-        <section class="services">
-        
-        <div class="content">
-            <div class="content__item">
-                <img src="../images/med4.png" alt="an image of med2">
+        <section class="container">
+        <div class="container-fluid w-100">
+            <div class="row">
+                <div class="col-lg-4 col-sm-11 col-md-6 d-flex align-items-baseline">
+                    <div class="card h-77 content__item m-2">
+                        <div class="card-body content text-center">
+                            <img src="../images/med9.jpg" alt="an image of med2">
                 
-                <h2 class="content__item--h2" >ዳማከሴ</h2>
-                <h6>found anywhere </h6>
-            <p>it is used to prevent some disease which is related to sun...like ምች ፣ ቊስል, ጉንፋን and others</p>
+                            <h2 class="content__item--h2 text-white">አቱች</h2>
+                            <h6 class="text-white">found hot area </h6>
+                            <p class="text-white">it is used to prevent some disease which is related to sun...like ምች ፣ ቊስል, ጉንፋን and others</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-11 col-md-6 d-flex align-items-sm-baseline">
+                    <div class="card h-auto content__item m-2">
+                        <div class="card-body content text-center text-center">
+                            <img src="../images/med7.jpg" alt="an image of med2">
+                            
+                            <h2 class="content__item--h2 text-white">ቀጠጢና</h2>
+                            <h6 class="text-white">found in cold area </h6>
+                            <p class="text-white">it is used to prevent some disease which is related to sun...like ምች ፣ ቊስል, ጉንፋን and others</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-11 col-md-6 d-flex align-items-baseline">
+                    <div class="card h-77 content__item m-2">
+                        <div class="card-body content text-center">
+                        <img src="../images/med9.jpg" alt="an image of med2">
+                        
+                        <h2 class="content__item--h2 text-white">አቱች</h2>
+                        <h6 class="text-white">found hot area </h6>
+                        <p class="text-white">it is used to prevent some disease which is related to sun...like ምች ፣ ቊስል, ጉንፋን and others</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-11 col-md-6 d-flex align-items-baseline">
+                    <div class="card h-77 content__item m-2">
+                        <div class="card-body content text-center">
+                            <img src="../images/med4.png" alt="an image of med2">
+                
+                            <h2 class="content__item--h2 text-white">ዳማከሴ</h2>
+                            <h6 class="text-white">found anywhere </h6>
+                            <p class="text-white">it is used to prevent some disease which is related to sun...like ምች ፣ ቊስል, ጉንፋን and others</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-11 d-flex align-items-sm-baseline">
+                    <div class="card h-auto content__item m-2">
+                        <div class="card-body content text-center">
+                            <img src="../images/med7.jpg" alt="an image of med2">
+                
+                            <h2 class="content__item--h2 text-white">ቀጠጢና</h2>
+                            <h6 class="text-white">found in cold area </h6>
+                            <p class="text-white">it is used to prevent some disease which is related to sun...like ምች ፣ ቊስል, ጉንፋን and others</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="content__item">
-                <img src="../images/med7.jpg" alt="an image of med2">
-            
-                <h2 class="content__item--h2">ቀጠጢና</h2>
-                <h6>found in cold area </h6>
-                <p>it is used to prevent some disease which is related to sun...like ምች ፣ ቊስል, ጉንፋን and others</p>
-            </div>
-            <div class="content__item">
-                <img src="../images/med9.jpg" alt="an image of med2">
-            
-                <h2 class="content__item--h2">አቱች</h2>
-                <h6>found hot area </h6>
-                <p>it is used to prevent some disease which is related to sun...like ምች ፣ ቊስል, ጉንፋን and others</p>
-            </div>
-            <div class="content__item">
-                <img src="../images/med3.png" alt="an image of med2">
-            
-                <h2 class="content__item--h2">Damakeseie</h2>
-                <h6>found anywhere </h6>
-                <p>it is used to prevent some disease which is related to sun...like ምች ፣ ቊስል, ጉንፋን and others</p>
-            </div>
-            <div class="content__item">
-                <img src="../images/med4.png" alt="an image of med2">
-            
-                <h2 class="content__item--h2">Damakeseie</h2>
-                <h6>found anywhere </h6>
-                <p>it is used to prevent some disease which is related to sun...like ምች ፣ ቊስል, ጉንፋን and others</p>
-            </div>
-            <div class="content__item">
-                <img src="../images/med2.png" alt="an image of med2">
-            
-                <h2 class="content__item--h2">Damakeseie</h2>
-                <h6>found anywhere </h6>
-                <p>it is used to prevent some disease which is related to sun...like ምች ፣ ቊስል, ጉንፋን and others</p>
-            </div>
-         </div>    
+        </div>
+
         </section>
-        <div class="next">
-            <p>click down to watch how those herbs treat peoples </p>
-            <a class="next-a"  href="Treatment.html"><h3 class="next-title">Treatment</h3></a>
+        <div class="container d-flex justify-content-center mx-auto flex-column align-items-center ">
+            <p class="lead my-2 text-white  fw-normal">click down to watch how those herbs treat peoples </p> <br>
+            <button class="btn btn-success btn-lg"><a href="Treatment.html" class="text-decoration-none">Treatement</a></button>
+            
         </div>
     </main>
-    <footer class="footer">
-        <section class="footer--contact">
-            <h2 class="footer--contact__header">ሃበሻ መድሃኒት</h2>
-            <ul class="foooter">
-                <li class="footer--contact__lists">Phone : +251989979732</li>
-                <li class="footer--contact__lists">email : Seblewongiel45@gmail.com</li>
-            </ul>
-        </section>
-        <section class="Social-media">
-            <h3 class="Social-media--text">Follow me</h3>
-            <div class="social-media__icons">
-                <div class="imgs"><img class="icon"
-                            src="../images/icons8-facebook.svg" alt="facebook logo"></a></div>
-                <div class="imgs"><img class="icon"
-                            src="../images/icons8-twitter-24.png" alt="twitter logo"></a></div>
-                <div class="imgs"><img class="icon"
-                            src="../images/icons8-linkedin-24.png" alt="linkedin logo"></a></div>
-                <div class="imgs"><img class="icon"
-                            src="../images/icons8-instagram-24.png" alt="insatagram logo"></a></div>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+                    <h2 class="mx-3 my-2 labeld">ሐበሻ መድሃኒት</h2>
+                    <ul class="foooter">
+                        <li class="text-white p-1">Phone : +251989979732</li>
+                        <li class="text-white p-1">email : Seblewongiel45@gmail.com</li>
+                    </ul>
+                </div>
+                <div class="col-sm-4">
+                    <h3 class="text-center w-50 my-2 labeld">Follow me</h3>
+                    <div class="container d-flex my-4">
+                        <a href="#" class="green-icon"><i class="fa fa-2x fa-twitter icons px-3" alt="twitter iocn"></i></a>
+                        <a href="#" class="green-icon"><i class="fa fa-2x fa-facebook icons px-3"
+                                alt="facebook icon"></i></a>
+                        <a href="#" class="green-icon"><i class="fa fa-2x fa-linkedin icons px-3"
+                                alt="Linkedin icon"></i></a>
+                        <a href="#" class="green-icon"><i class="fa fa-2x fa-instagram icons px-3"
+                                alt="instagram icon"></i></a>
+                    </div>
+                </div>
+                <div class="col-sm-4 text-white d-flex align-items-center">
+                    <p>copyright © 2022 by <span class="copyright--name"> Seblewongiel Takele.</span> </p>
+    
+                </div>
             </div>
-        </section>
-        <section class="copyright">
-            <p>copyright © 2022 by <span class="copyright--name"> Seblewongiel Takele.</span> </p>
-        </section>
+        </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
      <script src="../scripts/style.js"></script> 
 </body>
 </html>
