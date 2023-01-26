@@ -9,372 +9,43 @@
     margin: auto; 
     background-color:#232A34 ;
     background-size: cover;
-
-    /* #040706     #1F2235      #232A34 */
 }
 
-.header{
-    
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    width: 100%;
-    background-color: hsla(231, 70%, 5%, 0.384);   
+.container{
+    background-color: #232A34;
 }
-.logo{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1.5rem;
-    color: white;
-    cursor: pointer;
-    text-transform: capitalize;
-    font-weight: 700;
-    letter-spacing: 2px;
-}
-.humburger{
-    display: none;
-
-   background-color: transparent;
-   border: none;
-   color: white;
-   cursor: pointer;
-   font-size: 30px;   
-}
-.humberger:focus{
-    outline:none;
-}
-
-.nav__bar{
-    list-style-type: none;
-    
-
-}
-.nav__bar--list{
-    display: flex;
-    
-    display: inline;
-    flex-wrap: wrap;
-
-}
-.link{
-    text-decoration: none;
-    padding: 0 1.4rem;
-    font-size: 1.4rem;
-    color: white;
-    
-
-}
-.link:hover{
-    border:rgba(0, 255, 255, 0.052) 2px solid;
-    border-radius: 10px;
-    margin: 0.3em;
-    padding: 7px 15px 7px 15px;
-    background-color: rgba(187, 212, 224, 0.111);
-}
-
-
-/* here is the footer */
-.footer{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    color: white;
-    margin-top: 6rem;
-    padding-bottom: 20px;
-    padding-top: 20px;
-    background-color: hsla(231, 70%, 5%, 0.384);
-
-}
-.footer--contact__lists{
-    list-style-type: none ;
-    padding-top: 10px;
-    font-size: 18px;
-}
-.footer--contact__header{
-    color:#4cff96;
-}
-
-.holder{
-    display: flex;
-  justify-content: space-between;
-    
-}
-.Social-media--text{
-    font-size: 26px;
-    padding-left: 40px;
+.icons, .labeld{
     color: #4cff96;
-    margin-bottom: 8px;  
 }
-.social-media__icons{
-  display: flex;
-  flex-wrap: wrap;
- justify-content: space-around;
- align-items: center;
+a{
+    color: white !important;
+    font-size: 1.1rem !important;
 }
-.icon{
-    padding: 2px;
-    background-color:rgba(46, 220, 116, 0.753); 
-    border-radius: 7px;
+.headers{
+    font-weight: 700 !important;
+    font-size: 2.9rem;
 }
-.icon:hover{
-    background-color: rgb(0, 255, 68);
+.content__item{
+    background-color: #232A34;
 }
-.social-media__icons a{
-    padding: 10px;
+.input {
+   
+    font-size: 1.4rem !important;
 }
-.emails h3{
-    padding-left: 2em;
-    padding-bottom: 5px;
-    font-size: 1.4rem;
-    color: #00ffffb4;
-}
-.emails{
-    margin-left:8em;
-    font-size: 19px;
-}
-.phone-number--h3{
-    font-size: 20px;
-    color: #00ffffb4;
-    padding-bottom: 5px;
+.table-header{
+    height: 50px !important;
 }
 
-/* here is the new footer ok check with other */
 
-
-
-@media (min-width:769px) and (max-width:984px){
-    .link{
-       
-        font-size: 80%;
-    }
-    .logo{
-        font-size: 15px;
-        padding-left: 15px;
-    }
+.content__item:hover {
+    background: #79b494 !important;
+    cursor: pointer !important;
+}
+.content{
+    background-color: #154a3970;
 }
 
-@media (min-width:650px) and (max-width:768px){
-    .footer{
-        padding-bottom: 10px;
-    }
-    
-    .link{
-        font-size: 17px;
-    }
-    .logo{
-        padding-left: 6em;
-        font-size: 2em;
-        margin-bottom: 15px;
-    }
-    .footer--contact{
-        margin-bottom: 30px;
-    }
-}
-     @media (min-width:305px) and (max-width:515px)
-    {
-        .footer{
-            
-            
-            flex-direction: column;
-        
-    }
-        .footer--contact {
-            margin-bottom: 30px;
-        }
-    } 
-@media (min-width:305px) and (max-width:650px) {
-    .heading h2{
-       font-size: 30px;
-       width: 50%;
-       margin-left: 100px;
-    }
-        .footer--contact {
-            margin-bottom: 30px;
-        }
-    .nav{
-        display: none;
-    }
-    .nav.show {
-        display: flex;
-        width: 100%;
-        justify-content: flex-end;
-    }
-    .logo{
-        font-size: 20px;
-        padding-left: 0;
-    }
-    .copyright{
-        margin-left: 1vh;
-    }
-    
-    .humburger{
-        display: block;
-        margin-right: 10px;
-        margin-bottom: 15px;
-    }
-    a.link{
-        font-size: 20px;
-        padding: 3px;
-    }
-    .email{
-        color: red;
-        padding-left: 5%;
-        font-size: 10px;
-    }
-    .name--describe{
-        font-size: 20px;
-    }
-    .emails{
-        margin-left: 1em;
-    }
+.content__item img {
+    max-width: 90% !important;
 
-    
-    .name{
-        font-size: 14px;
-    }
-    textarea{
-        margin-left: -14px;
-        width: 120%;
-        
-    }
-    .holder {
-        display: flex;
-        flex-direction: column;
-    }
-    
-    .phone-number h3{
-        font-size: 19px;
-        
-        
-    }
-    .phone-number {
-        width: 130px;
-        margin: auto;
-    }
-    
-   .emails h3{
-       
-       margin-top: 4%;
-       margin-left: 20%;
-       padding-left: 29px;
-       font-size: 20px;
-   }
-   .emails p{
-    
-    padding-right: 40px;
-    font-size: 17px;
-    margin: 3%;}
-    .icon{
-        font-size: 10px;
-        width: 60%;
-        padding: 8px;
-        border-radius: 45px;
-    }
-    .Social-media h3{
-        padding-left: 25%;
-        font-size: 20px;
-    }
-    .copyright{
-        font-size: 16px;
-    }
-    
-    
-    ul.nav_bar {
-        display: flex;
-        flex-direction: column;
-        width: 150px;
-    }
-
-    .nav__bar--list {
-        display: flex;
-        margin: 2px;
-    }
-    
-     
-}
-@media(min-width:460px)and (max-width:692px)
-{
-    .footer {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        width: 90%;
-        color: white;
-        box-shadow: -10px -15px 5px rgb(35, 37, 39);
-        background-color: hsla(231, 70%, 5%, 0.384);
-        margin-top: 10rem;
-        border-radius: 15px;
-        
-        padding-bottom: 10px;
-        align-items: flex-start;
-        padding: 25px;
-        margin-left: 4vh;
-        margin-bottom: 5px;
-    }
-        .copyright{
-            padding-left: 1vh;
-        }
-    .holder {
-        display: flex;
-        flex-direction: column;
-        margin-bottom: 25px;
-        margin-left: 10px;
-    }
-    .phone-number {
-        display: flex;
-        flex-direction: row;
-        width: 100%;
-        margin-bottom: 25px;
-    }
-    .phone-number h3 {
-        font-size: 22px;
-    }
-    p {
-        padding-left: 2px;
-        font-size: 18px;
-    }
-    .emails {
-        display: flex;
-        flex-direction: row;
-         margin-left: 0;
-        font-size: 19px;
-    }
-    .emails h3 {
-         margin-top: 0; 
-         margin-left: 0; 
-         padding-left: 0; 
-        font-size: 20px;
-        padding-bottom: 5px;
-    }
-    .emails p {
-         padding-right: 40px;
-         font-size: 17px; 
-         margin: 0; 
-    }
-    section.Social-media {
-        display: flex;
-        flex-direction: row;
-        margin-bottom: 10px;
-    }
-    .Social-media h3 {
-         padding-left: 1px; 
-        font-size: 20px;
-    }
-    .social-media__icons{
-        padding-left: 1px;
-    }
-    .imgs{
-        padding-left: 5px;
-    }
-    .copyright{
-        padding: 5px;
-        margin-left: 0vh;
-    }
-    .icon{
-        flex-wrap: wrap;
-        width: 55%;
-        padding: 0.4vh;
-    }
 }
